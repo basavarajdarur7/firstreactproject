@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './components/firstcomponents.jsx';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
          Hi Hello Welcome to RBASAVARAJ
         </p>
+        <FirstComponent/>
       
       </header>
     </div>
