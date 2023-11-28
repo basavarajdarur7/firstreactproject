@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function FirstComponent (){
-    return <h1>Hi hello Revolusys</h1>
+export default function FirstComponent ({mypro}){
+    return <h1 className={mypro} >Hi hello Revolusys</h1>
     
 }
